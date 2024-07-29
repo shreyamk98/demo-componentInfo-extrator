@@ -1,0 +1,23 @@
+{
+	"name": "react-docgen-typescript-typescriptnode",
+	"version": "1.0.0",
+	"description": "Basic demo of using Typescript on the server side",
+	"main": "src/index.js",
+	"scripts": {
+		"start": "nodemon --watch src -e ts,tsx --exec 'ts-node' src/index.ts"
+	},
+	"dependencies": {
+		"@types/node": "10.12.18",
+		"@types/react": "16.8.6",
+		"nodemon": "2.0.4",
+		"react": "16.8.6",
+		"react-docgen-typescript": "1.16.5",
+		"react-dom": "^16.8.6",
+		"ts-node": "^8.0.0",
+		"typescript": "3.7.5"
+	},
+	"keywords": [],
+	"devDependencies": {
+		"react-scanner": "^1.1.0"
+	}
+}
